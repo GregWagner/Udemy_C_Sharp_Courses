@@ -1,0 +1,121 @@
+C# Rewatch List
+
+Video 51    Arrays
+            Index from end (^)
+            Array initializer
+Video 52    Multi-dimensional Arrays
+            GetLength(0) = height, GetLength(1) = width
+Coding Exercise 12
+Video 54    Lists
+            Count, Add, Remove, RemoveAt, AddRange,
+            IndexOf, Contains
+Coding Exercise 14
+Video 55    out keyword
+            Reference
+Video 56    TryParse method
+            int.TryParse()
+Video 61    TODO list refactoring
+
+Video 73    Methods overloading
+            ctor tab
+            quick actions to add parameters
+Video 74    Constructors overloading
+Video 75    Expression-bodies methods
+Video 78    Validation of constuctor parameter
+            nameof()
+Video 79    Readonly and const
+Video 80    Limitations of fields
+Video 81    Properties
+                private int _width;
+                public int Width {
+                    get { return _width; }
+                    set { _width = value; }
+                }
+            or 
+                public int Width {get; private set};
+Video 82    Object initializers
+            Setting public setters when creating
+            and
+            public DateTime birthYear {set; init;}
+Video 83    Computed properties
+Video 86-90 Single Reponsibilty Principle Refactor
+Video 91    Global using directive
+            System.Diagnostics; Stopwatch
+Video 92-98 Roll Dice 
+
+Video 103   Virtual functions
+Video 104   Virtual functions refactor
+Coding Exercise 23
+Video 107   ToString
+            public override string ToString
+Video 108   base keyword
+Video 112   is operator and conversion
+            use is not null insteade of != null
+Video 114   as operator
+            null if cast fails
+Video 118   sealed
+Video 119   All static classes are sealed
+Video 120   Extension methods
+            Used to add methods to enums
+            Multi-line string literals @"gregergerg"
+Video 122   Interfaces
+Video 123   Interfaces vs Abstract class
+Video 124   JSON
+Video 125-136   Assignment
+Quiz 20
+
+Video 146   throw vs throw ex 
+            throw perserves stack trace
+            never use throw ex
+Video 150   Exception filters
+            catch (Exception ex) when (ex.message == "test)
+Video 151   Custom Expceptions
+Video 152   Whne to define custom expcetions
+Coding Exercise 30
+Video 157-165   Assignment
+
+Video 172   LINQ Intro
+            Any, First
+Video 175-176   Good review of Extenstion
+Video 177   Convert.ChangeType methiod
+Video 178   A need for type constraints
+            where
+Video 179   Improving the performance of the list
+            Stopwatch
+Video 180   Type constraints
+Video 181   IComparable Interface
+Video 182   Type constraints
+Coding Exercise 33
+Video 183   Type constraints
+Video 184   Type constraints
+Quiz 28
+Videio 186  Funcs and Actions
+            Actions don't return anything
+Video 188   Delegates
+Coding Exercise 36
+Video 191-194   Design Patterns
+Video 195-200   Assignment
+Quiz 31
+
+Video 205   Delayed execution
+Video 215   Average, Anoymous types
+Video 216-221   Assignment
+
+Video 230   Structs are value types
+Video 231   ref 
+Video 235   Boxing and Unboxing - Performance cost
+Video 240   Memory leak
+Video 243-244   Stream writer/reader
+Video 245   Dispose
+            using statement
+Video 246-247   CSV
+Video 248-253   Assignment
+
+Video 255   Reflection
+Video 256-257   Attributes
+Coding Exercise 44
+Video 268   Override equals
+
+Video 362   Strings in Structs
+Video 366   Flyweight design pattern
+Video 370-378   Assignment
